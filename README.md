@@ -6,7 +6,7 @@
 
 
 
-![arch_pillarnest](README.assets/arch_pillarnest-1706119619324-4.png)
+![arch_pillarnest](https://github.com/WayneMao/PillarNeSt/blob/main/figs/arch_pillarnest.png)
 
 
 
@@ -75,7 +75,7 @@ TODO:
 
 ## Contact
 
-If you have any questions, feel free to open an issue or contact us at maoweixin@megvii.com or wangtiancai@megvii.com.
+If you have any questions, feel free to open an issue or contact us at maoweixin@megvii.com (maowx2017@fuji.waseda.jp) or wangtiancai@megvii.com.
 
 
 ---
