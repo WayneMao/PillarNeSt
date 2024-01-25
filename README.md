@@ -42,8 +42,8 @@ Results on nuScenes **val set**. (15e + 5e means the last 5 epochs should be tra
 | :--------------: | :---: | :---: | :------: | :----------------------------------------------------------: | ---------- |
 | PillarNeSt-Tiny  | 58.8% | 65.6% |  15e+5e  | [Google Drive](https://drive.google.com/drive/folders/13GyGPlq_Z7ma_KOKmkhPLMhMKsMo43cE?usp=sharing) | [BaiduYun] |
 | PillarNeSt-Small | 61.7% | 68.1% |  15e+5e  | [Google Drive](  https://drive.google.com/file/d/1EuGImxN_gM63Y9BUGfOjSqZwvB71v29A/view?usp=drive_link) | [BaiduYun] |
-| PillarNeSt-Base  | 63.2% | 69.2% |  15e+5e  |                        [Google Drive]                        | [BaiduYun] |
-| PillarNeSt-Large | 64.3% | 70.4% |  15e+5e  | [Google Drive]( https://drive.google.com/file/d/199YzUTOnF07CXOTE6TNU1WMJuzmdSe4K/view?usp=drive_link) | [BaiduYun] |
+| PillarNeSt-Base  | 63.2% | 69.2% |  15e+5e  |                        [Google Drive](https://drive.google.com/file/d/1IgJXF-modx_VHru3WJpTp6-6sTpvexz_/view?usp=drive_link)                       | [BaiduYun] |
+| PillarNeSt-Large | 64.3% | 70.4% |  18e+2e  | [Google Drive](https://drive.google.com/file/d/1DBFfWKevf5Wz3z2eBPd4ww3NpVuwN7Be/view?usp=drive_link) | [BaiduYun] |
 
 Results on nuScenes **test set** (without any TTA/model ensemble). 
 
@@ -69,7 +69,9 @@ TODO:
 
 - [ ] weights on test set
 - [ ] Backbone code
+- [ ] add CenterPoint-Plus
 - [ ] Small, Base, Large configs
+- [ ] Upload weights to Baidu cloud
 
 
 
