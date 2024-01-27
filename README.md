@@ -33,17 +33,18 @@ Follow the [mmdet3d](https://github.com/open-mmlab/mmdetection3d/blob/master/doc
 
 - Weights
 
-Model weights are available at [Google Drive](https://drive.google.com/drive/folders/13GyGPlq_Z7ma_KOKmkhPLMhMKsMo43cE?usp=sharing).
+Model weights are available at [Google Drive](https://drive.google.com/drive/folders/13GyGPlq_Z7ma_KOKmkhPLMhMKsMo43cE?usp=sharing) and [BaiduWangpan](https://pan.baidu.com/s/1Ev1pXbST_XWEyD8CTVN2JQ?pwd=1111)(1111).
 
 ## Main Results
 Results on nuScenes **val set**. (15e + 5e means the last 5 epochs should be trained without GTsample)
 
 |      Config      |  mAP  |  NDS  | Schedule |                           weights                            | weights    |
 | :--------------: | :---: | :---: | :------: | :----------------------------------------------------------: | ---------- |
-| PillarNeSt-Tiny  | 58.8% | 65.6% |  15e+5e  | [Google Drive](https://drive.google.com/drive/folders/13GyGPlq_Z7ma_KOKmkhPLMhMKsMo43cE?usp=sharing) | [BaiduYun] |
-| PillarNeSt-Small | 61.7% | 68.1% |  15e+5e  | [Google Drive](  https://drive.google.com/file/d/1EuGImxN_gM63Y9BUGfOjSqZwvB71v29A/view?usp=drive_link) | [BaiduYun] |
-| PillarNeSt-Base  | 63.2% | 69.2% |  15e+5e  |                        [Google Drive](https://drive.google.com/file/d/1IgJXF-modx_VHru3WJpTp6-6sTpvexz_/view?usp=drive_link)                       | [BaiduYun] |
-| PillarNeSt-Large | 64.3% | 70.4% |  18e+2e  | [Google Drive](https://drive.google.com/file/d/1DBFfWKevf5Wz3z2eBPd4ww3NpVuwN7Be/view?usp=drive_link) | [BaiduYun] |
+| PillarNeSt-Tiny  | 58.8% | 65.6% |  15e+5e  | [Google Drive](https://drive.google.com/file/d/1LQ5kwCEUnCBVE7meObAwkVM2kbzfnYGC/view?usp=drive_link) | [Baidu](https://pan.baidu.com/s/1UosqfU651jPzkL1ck5E9Sw?pwd=1111) |
+| PillarNeSt-Small | 61.7% | 68.1% |  15e+5e  | [Google Drive](https://drive.google.com/file/d/1EuGImxN_gM63Y9BUGfOjSqZwvB71v29A/view?usp=drive_link) | [Baidu](https://pan.baidu.com/s/1dvnoF3nHohsu2bIOJT33lw?pwd=1111) |
+| PillarNeSt-Base  | 63.2% | 69.2% |  15e+5e  | [Google Drive](https://drive.google.com/file/d/1IgJXF-modx_VHru3WJpTp6-6sTpvexz_/view?usp=drive_link) | [Baidu](https://pan.baidu.com/s/1EJsJ_2XoE5U8N2Zf3f_QrQ?pwd=1111) |
+| PillarNeSt-Large | 64.3% | 70.4% |  18e+2e  | [Google Drive](https://drive.google.com/file/d/1DBFfWKevf5Wz3z2eBPd4ww3NpVuwN7Be/view?usp=drive_link) | [Baidu](https://pan.baidu.com/s/1qyoJdDGnylxsyoSYCSQBnQ?pwd=1111) |
+
 
 Results on nuScenes **test set** (without any TTA/model ensemble). 
 
@@ -70,8 +71,8 @@ TODO:
 - [ ] weights on test set
 - [ ] Backbone code
 - [ ] add CenterPoint-Plus
-- [ ] Small, Base, Large configs
-- [ ] Upload weights to Baidu cloud
+- [x] Small, Base, Large configs
+- [x] Upload weights to Baidu cloud
 
 
 
@@ -82,11 +83,13 @@ If you have any questions, feel free to open an issue or contact us at maoweixin
 
 ---
 
-PS:
+#### PS:
 
 Recently, our team also conduct some explorations into the application of multi-modal large language model (**MLLM**) in the field of autonomous driving:
 
  [Adriver-I: A general world model for autonomous driving](https://arxiv.org/abs/2311.13549)
+
+ ![arch_adrive-I](figs/arch_adriver-I.png)
 
 ```
 @article{jia2023adriver,
@@ -97,7 +100,6 @@ Recently, our team also conduct some explorations into the application of multi-
 }
 ```
 
-PPS:
+#### PPS:
 
 组内招收自驾大模型、世界模型和具身智能相关的实习生，详情咨询/简历投递：maoweixin@megvii.com
-
