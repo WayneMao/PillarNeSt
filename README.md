@@ -10,9 +10,10 @@
 
 
 
-PillarNeSt is a robust  pillar-based 3D object detectors, which obtains **66.9%**(**SoTA without TTA/model ensemble**) mAP and **71.6 %** NDS on nuScenes benchmark. 
+PillarNeSt is a robust  pillar-based 3D object detectors, which obtains **66.9%**(**SOTA without TTA/model ensemble**) mAP and **71.6 %** NDS on nuScenes benchmark. 
 
-
+## NewS
+Our paper has been officially accepted by the journal IEEE Transactions on Intelligent Vehicles (**TIV**) in April 2024.
 
 ## Preparation
 
@@ -33,7 +34,7 @@ Follow the [mmdet3d](https://github.com/open-mmlab/mmdetection3d/blob/master/doc
 
 - Weights
 
-Model weights are available at [Google Drive](https://drive.google.com/drive/folders/13GyGPlq_Z7ma_KOKmkhPLMhMKsMo43cE?usp=sharing) and [BaiduWangpan](https://pan.baidu.com/s/1Ev1pXbST_XWEyD8CTVN2JQ?pwd=1111)(1111).
+Model weights are available at [Google Drive](https://drive.google.com/drive/folders/13GyGPlq_Z7ma_KOKmkhPLMhMKsMo43cE?usp=sharing) and [BaiduWangpan](https://pan.baidu.com/s/1Ev1pXbST_XWEyD8CTVN2JQ?pwd=1111)(PW: 1111).
 
 ## Main Results
 Results on nuScenes **val set**. (15e + 5e means the last 5 epochs should be trained without GTsample)
@@ -56,12 +57,16 @@ Results on nuScenes **test set** (without any TTA/model ensemble).
 ## Citation
 If you find PillarNeSt helpful in your research, please consider citing: 
 ```bibtex   
-@article{mao2023pillarnest,
-  title={PillarNeSt: Embracing Backbone Scaling and Pretraining for Pillar-based 3D Object Detection},
+@ARTICLE{10495196,
   author={Mao, Weixin and Wang, Tiancai and Zhang, Diankun and Yan, Junjie and Yoshie, Osamu},
-  journal={arXiv preprint arXiv:2311.17770},
-  year={2023}
-}
+  journal={IEEE Transactions on Intelligent Vehicles}, 
+  title={PillarNeSt: Embracing Backbone Scaling and Pretraining for Pillar-based 3D Object Detection}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-10},
+  keywords={Three-dimensional displays;Point cloud compression;Feature extraction;Detectors;Object detection;Task analysis;Convolution;Point Cloud;3D Object Detection;Backbone Scaling;Pretraining;Autonomous Driving},
+  doi={10.1109/TIV.2024.3386576}}
 ```
 
 ---
@@ -71,6 +76,7 @@ TODO:
 - [ ] weights on test set
 - [ ] Backbone code
 - [ ] add CenterPoint-Plus
+- [ ] add AV2 dataloader
 - [x] Small, Base, Large configs
 - [x] Upload weights to Baidu cloud
 
