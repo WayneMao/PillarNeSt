@@ -12,6 +12,9 @@
 
 [PillarNeSt](https://ieeexplore.ieee.org/abstract/document/10495196) is a robust  pillar-based 3D object detectors, which obtains **66.9%**(**SOTA without TTA/model ensemble**) mAP and **71.6 %** NDS on nuScenes benchmark. 
 
+**Visualization Results**
+![Visualization Results](figs/vis_results.png)
+
 ## News
 Our paper has been officially accepted by the journal IEEE Transactions on Intelligent Vehicles (**TIV**) in April 2024.
 
@@ -70,15 +73,19 @@ If you find PillarNeSt helpful in your research, please consider citing:
 ```
 
 ---
+Update:
+- [x] add visualization
+- [x] add CenterPlusHead
+- [x] add HeightPillarFeatureNet
+- [x] add CenterPoint-Plus
+- [x] Small, Base, Large configs
+- [x] Upload weights to Baidu cloud
 
 TODO:
 
 - [ ] weights on test set
 - [ ] Backbone code
-- [ ] add CenterPoint-Plus
 - [ ] add AV2 dataloader
-- [x] Small, Base, Large configs
-- [x] Upload weights to Baidu cloud
 
 
 
