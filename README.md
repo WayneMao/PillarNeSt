@@ -1,8 +1,8 @@
 # PillarNeSt: Embracing Backbone Scaling and Pretraining for Pillar-based 3D Object Detection
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2311.17770)
+[![TiV](https://img.shields.io/badge/TIV-Paper-<COLOR>.svg)](https://ieeexplore.ieee.org/abstract/document/10495196)
 
-
+<!-- [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2311.17770) -->
 
 
 
@@ -10,9 +10,9 @@
 
 
 
-PillarNeSt is a robust  pillar-based 3D object detectors, which obtains **66.9%**(**SOTA without TTA/model ensemble**) mAP and **71.6 %** NDS on nuScenes benchmark. 
+[PillarNeSt](https://ieeexplore.ieee.org/abstract/document/10495196) is a robust  pillar-based 3D object detectors, which obtains **66.9%**(**SOTA without TTA/model ensemble**) mAP and **71.6 %** NDS on nuScenes benchmark. 
 
-## NewS
+## News
 Our paper has been officially accepted by the journal IEEE Transactions on Intelligent Vehicles (**TIV**) in April 2024.
 
 ## Preparation
@@ -108,4 +108,4 @@ Recently, our team also conduct some explorations into the application of multi-
 
 #### PPS:
 
-组内招收自驾大模型、世界模型和具身智能相关的实习生，详情咨询/简历投递：maoweixin@megvii.com
+组内招收具身智能相关的实习生，详情咨询/简历投递：maoweixin@megvii.com
