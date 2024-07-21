@@ -6,7 +6,7 @@
 
 
 
-![arch_pillarnest](https://github.com/WayneMao/PillarNeSt/blob/main/figs/arch_pillarnest.png)
+![arch_pillarnest](figs/arch_pillarnest.png)
 
 
 
@@ -57,21 +57,6 @@ Results on nuScenes **test set** (without any TTA/model ensemble).
 | PillarNeSt-Base  | 65.6 % | 71.3% |
 | PillarNeSt-Large | 66.9%  | 71.6% |
 
-## Citation
-If you find PillarNeSt helpful in your research, please consider citing: 
-```bibtex   
-@ARTICLE{10495196,
-  author={Mao, Weixin and Wang, Tiancai and Zhang, Diankun and Yan, Junjie and Yoshie, Osamu},
-  journal={IEEE Transactions on Intelligent Vehicles}, 
-  title={PillarNeSt: Embracing Backbone Scaling and Pretraining for Pillar-based 3D Object Detection}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={1-10},
-  keywords={Three-dimensional displays;Point cloud compression;Feature extraction;Detectors;Object detection;Task analysis;Convolution;Point Cloud;3D Object Detection;Backbone Scaling;Pretraining;Autonomous Driving},
-  doi={10.1109/TIV.2024.3386576}}
-```
-
 ---
 Update:
 - [x] add visualization
@@ -93,6 +78,20 @@ TODO:
 
 If you have any questions, feel free to open an issue or contact us at maoweixin@megvii.com (maowx2017@fuji.waseda.jp) or wangtiancai@megvii.com.
 
+## Citation
+If you find PillarNeSt helpful in your research, please consider citing: 
+```bibtex   
+@ARTICLE{10495196,
+  author={Mao, Weixin and Wang, Tiancai and Zhang, Diankun and Yan, Junjie and Yoshie, Osamu},
+  journal={IEEE Transactions on Intelligent Vehicles}, 
+  title={PillarNeSt: Embracing Backbone Scaling and Pretraining for Pillar-based 3D Object Detection}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-10},
+  keywords={Three-dimensional displays;Point cloud compression;Feature extraction;Detectors;Object detection;Task analysis;Convolution;Point Cloud;3D Object Detection;Backbone Scaling;Pretraining;Autonomous Driving},
+  doi={10.1109/TIV.2024.3386576}}
+```
 
 ---
 
