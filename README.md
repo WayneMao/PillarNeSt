@@ -65,12 +65,7 @@ Update:
 - [x] add CenterPoint-Plus
 - [x] Small, Base, Large configs
 - [x] Upload weights to Baidu cloud
-
-TODO:
-
-- [ ] weights on test set
-- [ ] Backbone code
-- [ ] add AV2 dataloader
+- [x] Backbone code
 
 
 
