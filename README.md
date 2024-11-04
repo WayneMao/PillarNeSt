@@ -59,6 +59,7 @@ Results on nuScenes **test set** (without any TTA/model ensemble).
 
 ---
 Update:
+- [x] Update new CenterPointBBoxCoder
 - [x] add visualization
 - [x] add CenterPlusHead
 - [x] add HeightPillarFeatureNet
