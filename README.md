@@ -4,7 +4,7 @@
 
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2311.17770) -->
 
-
+:fire::fire:| [解读1](https://hub.baai.ac.cn/view/33185) | [PillarNeSt微信解读2](https://mp.weixin.qq.com/s/JLdzneO5MyFdQ75TlKJjsw) | [PillarNeSt微信解读2](https://mp.weixin.qq.com/s/Tkd9mXCc5M_hamYV3StWkA)
 
 ![arch_pillarnest](figs/arch_pillarnest.png)
 
