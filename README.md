@@ -72,7 +72,7 @@ Update:
 
 ## Contact
 
-If you have any questions, feel free to open an issue or contact us at maoweixin@megvii.com (maowx2017@fuji.waseda.jp) or wangtiancai@megvii.com.
+If you have any questions, feel free to open an issue or contact us at maowx2017@fuji.waseda.jp.
 
 ## Citation
 If you find PillarNeSt helpful in your research, please consider citing: 
@@ -110,4 +110,4 @@ Recently, our team also conduct some explorations into the application of multi-
 
 #### PPS:
 
-组内招收具身智能相关的实习生，详情咨询/简历投递：maoweixin@megvii.com
+组内招收具身智能相关的实习生or全职，详情咨询/简历投递：maowx2017@fuji.waseda.jp, 主题请写明：校招/实习_姓名_学校。
